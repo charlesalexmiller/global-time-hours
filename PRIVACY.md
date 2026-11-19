@@ -1,39 +1,70 @@
-# Privacy Policy
+# Privacy Policy for Global Time Hours
 
 **Last updated: November 18, 2026**
 
-Global Time Hours respects your privacy.
+Global Time Hours is a Chrome extension that displays the current hour for a selected time zone directly in the Chrome toolbar.
 
-This extension does not collect, sell, or share personal information or browsing data.
+## 1. Information We Collect
 
-## Information We Collect
+Global Time Hours does **not collect, upload, sell, or share personal information**.
 
-Global Time Hours does not collect personal information, browsing history, website content, or other user data.
+The extension does not use analytics, advertising trackers, or external data-collection services.
 
-## How the Extension Works
+The extension does not request access to browsing history, tabs, cookies, website content, or other websites.
 
-All time calculations and time zone conversions are performed locally in your browser.
+## 2. Information Stored Locally
 
-The extension does not send this information to any external server.
+Global Time Hours stores the following extension settings locally in your browser using Chrome's `chrome.storage.local` API:
 
-## Data Storage
+- Selected language
+- Selected time zone
+- 12-hour or 24-hour time format
+- Leading-zero preference
+- Font weight preference
+- Theme preference
 
-Global Time Hours does not store personal information or browsing data on external servers.
+These settings are used only to provide and customize the extension's time display.
 
-Any extension settings or preferences, if stored locally by the extension, remain on the user's device and are not transmitted to the developer or any third party.
+The stored settings are not transmitted to the developer or to any external server.
 
-## Data Sharing
+## 3. Time Zone and Language Information
 
-Global Time Hours does not sell, share, or transfer user data to third parties.
+The extension may use the browser's language and system time zone information to determine appropriate default settings and display the selected time correctly.
 
-## Third-Party Services
+This information is processed locally by the extension and is not sent to the developer or any external server.
 
-Global Time Hours does not use third-party analytics, advertising, or tracking services to collect user information.
+## 4. Permissions
 
-## Changes to This Privacy Policy
+Global Time Hours requests the following Chrome permissions:
+
+### Storage
+
+The `storage` permission is used to save and retrieve the extension's settings locally through `chrome.storage.local`.
+
+### Alarms
+
+The `alarms` permission is used to run the extension's background update once per minute. This keeps the hour displayed in the Chrome toolbar up to date.
+
+The alarms permission is not used to send notifications or reminders.
+
+## 5. Data Sharing
+
+Global Time Hours does not sell, share, or transfer user information to third parties.
+
+The extension does not operate its own server and does not transmit extension settings or time zone information to external servers.
+
+## 6. Data Security
+
+Because the extension does not transmit user settings to external servers, Global Time Hours does not maintain a remote database containing user information.
+
+Settings remain in Chrome's local extension storage.
+
+## 7. Changes to This Privacy Policy
 
 If the privacy practices of Global Time Hours change, this Privacy Policy will be updated accordingly.
 
-## Contact
+The latest version of this Privacy Policy will always be available at this page.
 
-If you have questions about this Privacy Policy, please contact the developer through the contact information provided on the Chrome Web Store listing.
+## 8. Contact
+
+For questions or concerns regarding this Privacy Policy or Global Time Hours, please contact the developer through the contact information provided on the Chrome Web Store listing.
